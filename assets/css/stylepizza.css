@@ -1,0 +1,135 @@
+html{
+	position: relative;
+}
+#mysite{
+	font-size: 36px;
+	color: white;
+}
+
+#atas{
+	font-size: 18px;
+	color: white;
+}
+.page-wrap{
+	width: 1200px;
+	margin-top: 100px;
+	margin-bottom: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	padding:20px; 
+	background-color: white;
+	box-shadow: 0 5px 20px 0px black;
+}
+
+.list{
+	width: 185px;
+	margin-left: -40px;
+	font-weight: bold;
+	margin-top: 15px;
+	background-color: #999;
+}
+.list a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding:10px 20px;
+}
+.list ul li {
+	position: relative;
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 10px;
+	padding-top: 5px;
+}
+.list a:hover{
+	background-color: black;
+	color: white;
+}
+.gambar{
+	border-radius: 6px;
+	width: 200px;
+	height: 200px;
+	background-color: transparent;
+	margin:20px;
+	float: left;
+	box-shadow: 0 5px 20px 0px #999;
+	filter: grayscale(100%);
+}
+.gambar2{
+	border-radius: 6px;
+	width: 200px;
+	height: 200px;
+	background-color: transparent;
+	margin:20px;
+	float: left;
+	box-shadow: 0 5px 20px 0px #999;
+	filter: grayscale(100%);
+}
+.gambar  p{
+	text-align: center;
+	font-size: 14px;
+	margin-top:-10px; 
+}
+.gambar2  p{
+	text-align: center;
+	font-size: 14px; 
+}
+.gambar2:hover{
+	filter: none;
+}
+.gambar:hover{
+	filter: none;
+}
+.lanjut{
+	float: right;
+	font-weight: bold;
+	margin-top: 10px;
+	width: 130px;
+	background-color: #666;
+	margin-right: 30px;
+}
+
+.lanjut:hover{
+	background-color: black;
+}
+.lanjut a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding:13px 15px;
+}
+footer{
+	position: absolute;
+	width: 100%;
+	top: 1000px;
+	height: 70px;
+	background-color: #333;
+	padding-top: 30px;
+}
+footer p{
+		color: #aaa;
+		font-size: 0.9em;
+}
+footer p i {
+	color: salmon;
+}
+
+ ul,ol{
+	list-style: none;
+}
+body{
+	background-color: #c9cacc;
+	font-family: arial;
+}
+p{
+	margin-top: 0px;
+	margin-bottom:20px;
+	margin-right: 0px;
+	margin-left: auto;
+}
+img{
+	width: 150px;
+	height: 150px;
+	display: block;
+	margin: 10px auto;
+}
